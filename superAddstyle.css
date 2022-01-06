@@ -1,0 +1,119 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 2000px;
+    height: 6000px;
+}
+
+.userDiv {
+    display: flex;
+    flex-direction: row;
+    width: 190px;
+    height: 35px;
+    font-size: 10px;
+    border: 1px solid blueviolet;
+    margin: 6px;
+    padding: 3px;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.userDiv:hover {
+    background: lightblue;
+    transition: .3s;
+    transform: rotateY(2grad);
+}
+
+.formDiv {
+    display: flex;
+    flex-direction: row;
+    width: 430px;
+    height: 30px;
+    font-size: 10px;
+    border: 1px solid blueviolet;
+    margin: 6px;
+    padding: 3px;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.formDiv:hover {
+    background: lightblue;
+    transition: .3s;
+    transform: rotateY(2grad);
+}
+
+.namesDiv,
+.ageDiv,
+.statusDiv,
+.addressDiv {
+    font-size: 10px;
+    border: 1px solid blueviolet;
+    margin: 6px;
+    padding: 3px;
+}
+
+.formUserDiv {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    height: 250px;
+    font-size: 10px;
+    border: 1px solid blueviolet;
+    margin: 6px;
+    padding: 3px;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.formUserDiv:hover {
+    background: lightblue;
+    transition: .3s;
+    transform: rotateY(2grad);
+}
+
+.namesDiv,
+.ageDiv,
+.statusDiv,
+.addressDiv,
+.addCityDiv,
+.addCountryDiv,
+.addStreetDiv,
+.addHouseDiv {
+    font-size: 10px;
+    border: 1px solid blueviolet;
+    margin: 6px;
+    padding: 3px;
+}
+
+.ruleDiv {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 70px;
+    font-size: 10px;
+    border: 1px solid blueviolet;
+    margin: 6px;
+    padding: 3px;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.ruleDiv:hover {
+    background: lightblue;
+    transition: .3s;
+    transform: rotateY(2grad);
+}
+
+.bodyDiv,
+.titleDiv {
+    font-size: 10px;
+    border: 1px solid blueviolet;
+    margin: 6px;
+    padding: 3px;
+}
